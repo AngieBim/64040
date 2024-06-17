@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+	<script src="js/modernizr.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+	<style>
+		.content-section {
+			padding: 50px 0;
+			background-color: #fff;
+		}
+
+		.titles {
+			font-size: 2.5rem;
+			margin-bottom: 20px;
+		}
+
+		.divider-general {
+			height: 2px;
+			background-color: #ffffff;
+			margin: 20px 0;
+		}
+
+		.text-center img {
+			max-width: 80px;
+		}
+
+		.section-services .service img {
+			max-width: 300px;
+			/* Aumenta el tamaño de las imágenes */
+			margin-top: 20px;
+		}
+
+		.service-box {
+			border: 1px solid #ddd;
+			padding: 20px;
+			margin: 10px;
+			background-color: #aadb5b;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+			border-radius: 5px;
+		}
+
+		.service-box-2 {
+			border: 1px solid #ffffff;
+			padding: 20px;
+			margin: 10px;
+			height: 490px; /* Define la altura deseada para todos los cuadros */
+			background-color: #504e4949;
+			box-shadow: 0 2px 4px rgb(0, 0, 0);
+			border-radius: 5px;
+		}
+		.video-container {
+			position: relative;
+			width: 100%;
+			padding-bottom: 56.25%; /* Proporción 16:9 para un video responsive */
+			overflow: hidden;
+			border: 20px solid #ccc; /* Borde alrededor del video */
+			border-radius: 10px; /* Bordes redondeados */
+		}
+		.video-container iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+		.video-link {
+			display: block;
+			text-align: center;
+			margin-top: 10px; /* Espacio entre el video y el enlace */
+		}
+		
+	</style>
+</head>
+
+<body>
+	<!-- Botón ir arriba -->
+	<i class="btn-up fa fa-arrow-circle-o-up hidden-xs"></i>
+	<!-- Navegación -->
+	<header class="full-reset header">
+		<div class="full-reset logo">
+			<span class="hidden-lg hidden-md">I.E N° 64040</span>
+			<span class="hidden-xs hidden-sm">INSTITUCION EDUCATIVA N° 64040</span>
+		</div>
+		<nav class="full-reset navigation">
+			<ul class="full-reset list-unstyled">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="institucion.html">Institución</a></li>
+				<li><a href="galeria.html">Galería</a></li>
+				<li><a href="ofrecemos.html">¿Qué ofrecemos?</a></li>
+				<li><a href="estudia.html">¿Por qué estudiar aquí?</a></li>
+			</ul>
+		</nav>
+		<!-- Botón menú móvil -->
+		<a href="#" class="hidden-sm hidden-md hidden-lg pull-right button-menu-mobile show-close-menu-m"><i
+				class="fa fa-ellipsis-v"></i></a>
+	</header>
+	<!-- Contenido principal -->
+	<section class="full-reset font-cover content-section">
+		<div class="full-reset" style="height: 100%; background-color: #fff; padding: 20px 0;">
+			<h1 class="text-center titles">Estudios de Nivel Inicial y Primaria</h1>
+			<p class="lead text-center">
+				"Descubre nuestras enseñanzas especializadas para el desarrollo integral en las áreas de inicial y
+				primaria."
+			</p>
+			<div class="container mt-5">
+				<div class="row">
+					<div class="col-md-6 text-center">
+						<div class="service-box">
+							<h3>Educación Inicial</h3>
+							<p>Fomentamos el desarrollo temprano a través de actividades lúdicas y educativas adaptadas a las necesidades de los más pequeños.</p>
+						</div>
+						<!-- Cuadro de video para Educación Inicial -->
+						<div class="video-container">
+							<iframe src="https://www.youtube.com/embed/I4qYbVi6r1o" allowfullscreen></iframe>
+						</div>
+						<!-- Enlace al video original en TikTok -->
+						<a href="https://www.tiktok.com/@alayito16/video/7361168868880043270?q=cancion%20de%20inicial&t=1718120270656" class="video-link" target="_blank" rel="noopener noreferrer">Ver más en TikTok</a>
+					</div>
+					<!-- Repite lo mismo para la sección de Educación Primaria -->
+					<div class="col-md-6 text-center">
+						<div class="service-box">
+							<h3>Educación Primaria</h3>
+							<p>Proporcionamos una base sólida en conocimientos y habilidades para preparar a los estudiantes para los desafíos futuros.</p>
+						</div>
+						<!-- Cuadro de video para Educación Primaria -->
+						<div class="video-container">
+							<iframe src="https://www.youtube.com/embed/wWPxdsZ2oyg" allowfullscreen></iframe>
+						</div>
+						<!-- Enlace al video original en TikTok -->
+						<a href="https://www.tiktok.com/@parvulariaes/video/7367727596278238470?q=mensaje%20obre%20la%20educacion%20de%20ni%C3%B1os&t=1718120414010" class="video-link" target="_blank" rel="noopener noreferrer">Ver más en TikTok</a>
+					</div>
+				</div>
+			</div>
+		<section class="full-reset section-carousel" style="background-color: #fff;">
+			<h2 class="text-center titles mt-4">Beneficios de Nuestra Institución</h2>
+			<div class="row mt-4 section-services">
+				<!-- Cuadro 1 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 text-center service">
+					<div class="service-box-2">
+						<h3>Docentes de especialidad</h3>
+						<p>Mantenemos altos estándares de calidad e higiene en todas nuestras instalaciones y servicios.
+						</p>
+						<img src="assets/img/maestros de especialidad.jpg" alt="Quality Icon"
+							class="img-fluid mx-auto d-block">
+					</div>
+				</div>
+				<!-- Cuadro 2 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 text-center service">
+					<div class="service-box-2">
+						<h3>Ambiente seguro</h3>
+						<p>Colaboramos estrechamente con la comunidad en diversos proyectos para enriquecer la
+							experiencia educativa de nuestros estudiantes.</p>
+						<img src="assets/gallery/2ima.jpg" alt="Community Icon" class="img-fluid mx-auto d-block">
+					</div>
+				</div>
+				<!-- Cuadro 3 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 text-center service">
+					<div class="service-box-2">
+						<h3>Instalaciones Modernas</h3>
+						<p>Contamos con instalaciones modernos con la última tecnología para
+						 el aprendizaje efectivo y de calidad a los estudiantes</p>
+						<img src="assets/gallery/1ima.jpg" alt="Facilities Icon" class="img-fluid mx-auto d-block">
+					</div>
+				</div>
+				<!-- Cuadro 4 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 text-center service">
+					<div class="service-box-2">
+						<h3>Desayuno y Almuerzo (Qaliwarme)</h3>
+						<p>Ofrecemos desayunos y almuerzos nutritivos para nuestros estudiantes.</p>
+						<img src="assets/gallery/qaliwarma1.jpeg" alt="Meal Icon" class="img-fluid mx-auto d-block">
+					</div>
+				</div>
+				<!-- Cuadro 5 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 text-center service">
+					<div class="service-box-2">
+						<h3>Quioscos</h3>
+						<p>Contamos con quioscos y cafeterías donde los estudiantes pueden adquirir snacks y comidas
+							adicionales.</p>
+						<img src="assets/gallery/quiosco.avif" alt="Snacks Icon"
+							class="img-fluid mx-auto d-block">
+					</div>
+				</div>
+				<!-- Cuadro 10 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 text-center service">
+					<div class="service-box-2">
+						<h3>Colaboración con la Comunidad</h3>
+						<p>Proporcionamos un entorno seguro y acogedor para todos los estudiantes.</p>
+						<img src="assets/gallery/comunitario.jpg" alt="Security Icon" class="img-fluid mx-auto d-block">
+					</div>
+				</div>
+				<!-- Cuadro 6 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 text-center service">
+					<div class="service-box-2">
+						<h3>Apoyo Psicopedagógico</h3>
+						<p>Brindamos apoyo psicopedagógico para el desarrollo integral de nuestros estudiantes.</p>
+						<img src="assets/gallery/apoyo.jpg" alt="Support Icon" class="img-fluid mx-auto d-block">
+					</div>
+				</div>
+
+				<!-- Cuadro 8 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 text-center service">
+					<div class="service-box-2">
+						<h3>Calidad e Higiene</h3>
+						<p>Mantenemos altos estándares de calidad e higiene en todas nuestras instalaciones y servicios.
+						</p>
+						<img src="assets/gallery/lavado-1.jpeg" alt="Quality Icon" class="img-fluid mx-auto d-block">
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 text-center service">
+					<div class="service-box-2">
+						<h3>Enseñanza Personalizada</h3>
+						<p>Nuestros docentes se enfocan en el desarrollo individual de cada estudiante.</p>
+						<img src="assets/gallery/educacion-integral-y-personalizada.png" alt="Teaching Icon"
+							class="img-fluid mx-auto d-block">
+					</div>
+				</div>
+		</section>
+	</section>
+	<br>
+	<br>
+	<!--======================================== Pie de pagina ========================================-->
+	<footer class="full-reset footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4">
+					<h4 class="titles text-center" style="color: white;">Visítenos en</h4>
+					<p class="text-center" style="color: white;">Dirección: <a
+							href="https://maps.app.goo.gl/ZuUyNfguLvYLFRig7"
+							style="color: white; text-decoration: none;" onmouseover="this.style.color='blue'"
+							onmouseout="this.style.color='white'">Jr Los ceticos/ Av Aguaytia</a></p>
+					<p class="text-center" style="color: white;"> <a href="https://maps.app.goo.gl/ZuUyNfguLvYLFRig7"
+							style="color: white; text-decoration: none;" onmouseover="this.style.color='blue'"
+							onmouseout="this.style.color='white'">Minedu </a></p>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<h4 class="titles text-center" style="color: white;">Contáctenos</h4>
+					<p class="text-center" style="color: white;">Correo Electrónico: <a
+							href="mailto:joseabelardoquiñoes@gmial.com" style="color: white;"
+							onmouseover="this.style.color='blue'"
+							onmouseout="this.style.color='white'">joseabelardoquiñoes@gmial.com</a></p>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<h4 class="titles text-center" style="color: white;">Síguenos en</h4>
+					<ul class="list-unstyled links-footer text-center">
+						<li><a href="https://web.facebook.com/joseabelardo.quinonesgonzales.988"
+								class="open-link-newTab" style="color: white;" onmouseover="this.style.color='blue'"
+								onmouseout="this.style.color='white'">Facebook</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12">
+					<div class="full-reset text-center footer-copyright" style="color: white; font-size: 12px;"><i
+							class="fa fa-copyright"></i> AngieBim11</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
